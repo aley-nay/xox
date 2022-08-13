@@ -1,0 +1,14 @@
+body,html{background: #D2D1E0; margin: 0 auto; padding: 0; display: flex; align-items: center; justify-content: center; height: 100%; cursor:url("media/off.png"), auto;}
+th{height: 100px; width: 100px; border: 0.1em solid #A6A2C3; margin: 0;}
+th:focus,
+th:hover,
+th:active{cursor:url("media/on.png"), auto; background: #A8B3D7; transition: 0.3s;}
+.renk{background: #A6A2C3; color: white;}
+img{width: 70px; position: absolute; bottom: 0%; right: 0%; animation-name: ordek; animation-duration: 20s;}
+
+
+@keyframes ordek {
+  0%   {right: 0%;}
+  100% {right: 100%;}
+}
+
